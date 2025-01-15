@@ -1,0 +1,10 @@
+--- Makefile
++++ Makefile
+@@ -55,6 +57,7 @@ install: st
+ 
+ uninstall:
+ 	rm -f $(DESTDIR)$(PREFIX)/bin/st
++	rm -f $(DESTDIR)$(PREFIX)/bin/st-copyout
+ 	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
+ 	rm -f /usr/share/applications/st.desktop
+ 

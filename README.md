@@ -1,3 +1,5 @@
+The project forked from https://github.com/sergei-grechanik/st-graphics
+
 # st-graphics
 
 This is a fork of [st](https://st.suckless.org/) that implements a subset of
